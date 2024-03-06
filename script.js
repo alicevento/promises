@@ -5,7 +5,7 @@
 
 const getDatos = async () => {
     // URL de la API que proporciona los datos de los álbumes
-    const url = 'https://jsonplaceholder.typicode.com/photos?_limit=20';
+    const url = 'https://jsonplaceholder.typicode.com/photos'; //?_limit=20
     try {
         // Realizar la solicitud a la URL usando fetch y esperar la respuesta
         const response = await fetch(url);  
