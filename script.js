@@ -9,7 +9,7 @@ const getDatos = async () => {
     try {
         // Realizar la solicitud a la URL usando fetch y esperar la respuesta
         const response = await fetch(url);  
-        //console.log(response) 
+        console.log("Responde: ",response) 
         const datos = await response.json();  // Convertir la respuesta a formato JSON
         console.log("Informacion a procesar: ",datos);
         //Utilizar un método de iteración de arreglos (por ejemplo: forEach) para mostrar solamente los primeros 20 títulos de los datos recibidos.
